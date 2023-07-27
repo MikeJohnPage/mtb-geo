@@ -1,0 +1,13 @@
+Package: mtb-geo
+Title: Mountain Bike Geometry Analyses
+Version: 0.0.0.9000
+Authors@R: person("Michael", "Page", email = "hello@mikejohnpage.com",
+    role = c("aut", "cre"))
+Description: Run various mountain bike geometry analyses and simulations.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
