@@ -10,6 +10,7 @@ geo <- tibble::tribble(
   "G1 longest", 1324, 453,
   "G1 longer mutation one", 1308, 454,
   "G1 longer mutation two", 1314, 460,
+  "G1 longer mutation three (angleset)", 1304, 460,
   "Norco Range L", 1285, 442.5,
   "Orange Stage 7 L", 1313, 468,
   "Raaw Madonna L", 1269, 445,
