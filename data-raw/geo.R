@@ -1,6 +1,8 @@
 geo <- tibble::tribble(
   ~bike, ~"wb", ~"rc",
   "Banshee Titan L v3.2", 1270, 452,
+  "Contra MC L", 1270.2, 438,
+  "Contra MC L at sag", 1270.2, 451.8,
   "Deviate Claymore L", 1268, 441,
   "Forbidden Druid L", 1259, 452,
   "Forbidden Druid MX L", 1259, 452,
@@ -10,16 +12,20 @@ geo <- tibble::tribble(
   "G1 longest", 1324, 453,
   "G1 longer mutation one", 1308, 454,
   "G1 longer mutation two", 1314, 460,
-  "G1 longer mutation three (angleset)", 1304, 460,
+  "G1 longer mutation three (angleset 1°)", 1304, 460,
   "Norco Range L", 1285, 442.5,
-  "Orange Stage 7 L", 1313, 468,
   "Raaw Madonna L", 1269, 445,
   "Raaw Madonna L mutated", 1274, 450,
+  "Raaw Madonna L mutated (anglset -1°)", 1279.5, 450,
+  "Raaw Madonna L mutated two", 1264, 440,
   "Santa Cruz Megatower L", 1266, 441,
   "Santa Cruz Megatower XL", 1298, 444,
   "Transion Sentinel XL", 1292, 440,
   "Transition Spire L", 1289, 448,
-  "Transition Spur L", 1219, 435
+  "Transition Spur L", 1219, 435,
+  "Trek Fuel Ex L", 1250.2, 440,
+  "Weareone Arrival 170 L", 1275, 447,
+  "Weareone Arrival 170 XL", 1290, 450
 )
 
 usethis::use_data(geo, overwrite = TRUE)
